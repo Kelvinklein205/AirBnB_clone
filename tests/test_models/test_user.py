@@ -51,4 +51,3 @@ class TestUserClass(unittest.TestCase):
         user_attr = dir(User)
         self.assertTrue("save" in user_attr)
         self.assertTrue("to_dict" in user_attr)
-

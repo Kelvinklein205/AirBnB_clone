@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 """The base class for the airbnb project
+
 This file contains the BaseModel class for the project
 """
 import uuid
@@ -10,6 +11,7 @@ import models
 class BaseModel():
     '''The BaseModel class that defines all common
     attributes/methods for other classes
+
     Attributes:
         id (str): string - assign with an uuid when an instance is created
             the goal is to have unique id for each BaseModel
@@ -50,6 +52,7 @@ class BaseModel():
 
     def to_dict(self):
         '''Creates a dictionary of all the attributes in the object
+
         Returns the dictionary
         '''
         my_dict = {}

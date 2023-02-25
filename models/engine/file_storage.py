@@ -15,6 +15,7 @@ from models.review import Review
 
 class FileStorage:
     '''Manages the database for our objects
+
     Private class attribute:
         __file_path (str): string - path to the JSON file (ex: file.json)
         __objects: dictionary - empty but will store all objects by
@@ -30,6 +31,7 @@ class FileStorage:
 
     def new(self, obj):
         '''sets in `__objects` the `obj` with <obj class name>.id
+
         Args:
         obj (obj of a valid class): an object of one of our classes
         '''
